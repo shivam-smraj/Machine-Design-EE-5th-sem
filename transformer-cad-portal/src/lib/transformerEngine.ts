@@ -870,7 +870,7 @@ Per Unit Resistance is ${epsilonP.toFixed(4)}`;
   const lc = (lcp + lcs) / 2;
 
   const mu0 = 1.256e-6;
-  const xp = (2 * Math.PI * f * mu0 * Math.pow(tpModified, 2) * lmt * (insulationT + (bp + bs) / 3)) / (lc / 1000);
+  const xp = (2 * Math.PI * f * mu0 * Math.pow(tpModified, 2) * lmt * (insulationT + (bp + bs) / 3) * 1e-3) / (lc / 1000);
   const epsilonX = (ipp * xp) / vpp;
   const epsilonZ = Math.sqrt(epsilonP * epsilonP + epsilonX * epsilonX);
 
