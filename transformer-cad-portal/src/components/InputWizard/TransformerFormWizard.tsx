@@ -134,6 +134,28 @@ export const TransformerFormWizard: React.FC<TransformerFormWizardProps> = ({
         {activeTab === 'rating' && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
             <div>
+              <label className="text-xs text-slate-300 font-semibold mb-1 block">Transformer Type</label>
+              <select
+                value={inputs.transformerCategory}
+                onChange={(e) => {
+                  const val = parseInt(e.target.value) as 1 | 2;
+                  onChange({
+                    ...inputs,
+                    transformerCategory: val,
+                    kFactor: val === 1 ? 0.45 : 0.70,
+                    deltaPrimary: val === 1 ? 2.3 : 3.0,
+                    secondaryDelta: val === 1 ? 2.3 : 3.0,
+                    bm: val === 1 ? 1.0 : 1.5,
+                  });
+                }}
+                className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs text-slate-100 focus:border-sky-500"
+              >
+                <option value={1}>Distribution (K=0.45)</option>
+                <option value={2}>Power (K=0.70)</option>
+              </select>
+            </div>
+
+            <div>
               <label className="text-xs text-slate-300 font-semibold mb-1 block">kVA Rating (Q)</label>
               <input
                 type="number"
