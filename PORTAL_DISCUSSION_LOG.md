@@ -155,3 +155,10 @@ Based on user feedback:
 1. **Root Next.js Dependencies Added**:
    - Added `"next": "16.3.0"`, `"react"`, `"react-dom"`, and `"framework": "nextjs"` in root [`package.json`](file:///c:/Users/Shivam/Desktop/Machine_Design/package.json) and [`vercel.json`](file:///c:/Users/Shivam/Desktop/Machine_Design/vercel.json).
    - Resolves Vercel's `Error: No Next.js version detected` build error completely.
+
+---
+
+## Log Entry 12: Deployment Guide Documentation
+
+1. **Deployment Guide Created**:
+   - Created [`DEPLOYMENT_GUIDE.md`](file:///c:/Users/Shivam/Desktop/Machine_Design/DEPLOYMENT_GUIDE.md) covering step-by-step instructions for Vercel, environment variables (`GEMINI_API_KEY`), continuous integration, and local testing.
