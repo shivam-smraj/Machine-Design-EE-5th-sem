@@ -46,7 +46,6 @@ export function runTransformerCalculations(inputs: TransformerInputs): Calculati
     turnsPerNormalCoilNct,
     hvLayersNcl,
     turnsPerLayerTncl,
-    hvConductorType,
     wireBareDp1,
     wireInsulatedDp2,
     spacerDbc,

@@ -230,7 +230,7 @@ export const CADVisualizer: React.FC<CADVisualizerProps> = ({ outputs, inputs })
             <line x1="40" y1="260" x2="480" y2="260" stroke="#38bdf8" strokeWidth="2" />
             <circle cx="480" cy="100" r="4" fill="#38bdf8" />
             <circle cx="480" cy="260" r="4" fill="#38bdf8" />
-            <text x="490" y="180" fill="#a855f7" fontSize="11" fontWeight="bold">Output Vsp'</text>
+            <text x="490" y="180" fill="#a855f7" fontSize="11" fontWeight="bold">Output Vsp&apos;</text>
             <text x="270" y="320" textAnchor="middle" fill="#cbd5e1" fontSize="11" fontWeight="bold">Total Short-Circuit Impedance εz = {(reactance.epsilonZ * 100).toFixed(2)}% (εp = {(resistance.epsilonP * 100).toFixed(2)}%, εx = {(reactance.epsilonX * 100).toFixed(2)}%)</text>
           </svg>
         )}

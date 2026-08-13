@@ -51,8 +51,8 @@ Answer the user's questions clearly, concisely, with electrical machine engineer
         ]);
         responseText = result.response.text();
         if (responseText) break;
-      } catch (err: any) {
-        console.warn(`Model ${modelName} failed, trying next fallback...`, err?.message);
+      } catch (err: unknown) {
+        console.warn(`Model ${modelName} failed, trying next fallback...`, (err as Error)?.message);
         lastError = err;
       }
     }
@@ -62,10 +62,10 @@ Answer the user's questions clearly, concisely, with electrical machine engineer
     }
 
     return NextResponse.json({ reply: responseText });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Gemini API Error:', error);
     return NextResponse.json(
-      { error: error?.message || 'Failed to communicate with Gemini AI API' },
+      { error: (error as Error)?.message || 'Failed to communicate with Gemini AI API' },
       { status: 500 }
     );
   }

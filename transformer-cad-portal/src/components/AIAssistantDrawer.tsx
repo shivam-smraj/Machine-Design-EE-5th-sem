@@ -62,9 +62,9 @@ export const AIAssistantDrawer: React.FC<AIAssistantDrawerProps> = ({
       }
 
       setMessages((prev) => [...prev, { role: 'assistant', content: data.reply }]);
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error(err);
-      setErrorMsg(err.message || 'Error connecting to Gemini API');
+      setErrorMsg((err as Error)?.message || 'Error connecting to Gemini API');
     } finally {
       setLoading(false);
     }

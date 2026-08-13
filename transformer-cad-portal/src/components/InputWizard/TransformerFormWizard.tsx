@@ -18,7 +18,7 @@ export const TransformerFormWizard: React.FC<TransformerFormWizardProps> = ({
 }) => {
   const [activeTab, setActiveTab] = useState<'rating' | 'core' | 'window' | 'lv' | 'hv' | 'loss'>('rating');
 
-  const updateField = (field: keyof TransformerInputs, val: any) => {
+  const updateField = <K extends keyof TransformerInputs>(field: K, val: TransformerInputs[K]) => {
     onChange({
       ...inputs,
       [field]: val,
@@ -225,7 +225,7 @@ export const TransformerFormWizard: React.FC<TransformerFormWizardProps> = ({
               <label className="text-xs text-slate-300 font-semibold mb-1 block">Core Stepping Type</label>
               <select
                 value={inputs.coreType}
-                onChange={(e) => updateField('coreType', parseInt(e.target.value) as any)}
+                onChange={(e) => updateField('coreType', parseInt(e.target.value) as 1 | 2 | 3 | 4)}
                 className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs text-slate-100 focus:border-sky-500"
               >
                 <option value={1}>1 - Square Core (Ct=0.45)</option>
@@ -326,7 +326,7 @@ export const TransformerFormWizard: React.FC<TransformerFormWizardProps> = ({
               <label className="text-xs text-slate-300 font-semibold mb-1 block">Secondary Connection</label>
               <select
                 value={inputs.secondaryConnection}
-                onChange={(e) => updateField('secondaryConnection', e.target.value as any)}
+                onChange={(e) => updateField('secondaryConnection', e.target.value as 'Star' | 'Delta')}
                 className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs text-slate-100 focus:border-sky-500"
               >
                 <option value="Star">Star</option>
@@ -396,7 +396,7 @@ export const TransformerFormWizard: React.FC<TransformerFormWizardProps> = ({
               <label className="text-xs text-slate-300 font-semibold mb-1 block">Primary Connection</label>
               <select
                 value={inputs.primaryConnection}
-                onChange={(e) => updateField('primaryConnection', e.target.value as any)}
+                onChange={(e) => updateField('primaryConnection', e.target.value as 'Star' | 'Delta')}
                 className="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-xs text-slate-100 focus:border-sky-500"
               >
                 <option value="Delta">Delta</option>
