@@ -1,0 +1,22 @@
+# Dependencies
+**/node_modules
+node_modules/
+
+# Next.js Build Output
+**/.next
+.next/
+**/out
+out/
+
+# Production / Executables
+*.exe
+*.o
+*.obj
+
+# Environment & IDE
+.env
+.env*.local
+.vscode/
+.idea/
+.DS_Store
+*.log
