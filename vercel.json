@@ -1,6 +1,5 @@
 {
-  "buildCommand": "cd transformer-cad-portal && npm run build",
+  "buildCommand": "npm --prefix transformer-cad-portal run build",
   "outputDirectory": "transformer-cad-portal/.next",
-  "installCommand": "cd transformer-cad-portal && npm install",
-  "framework": "nextjs"
+  "installCommand": "npm --prefix transformer-cad-portal install"
 }

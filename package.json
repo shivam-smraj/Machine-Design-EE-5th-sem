@@ -1,0 +1,11 @@
+{
+  "name": "machine-design-ee-5th-sem",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix transformer-cad-portal run dev",
+    "build": "npm --prefix transformer-cad-portal run build",
+    "start": "npm --prefix transformer-cad-portal run start",
+    "postinstall": "npm --prefix transformer-cad-portal install"
+  }
+}
