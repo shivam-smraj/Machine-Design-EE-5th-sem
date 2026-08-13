@@ -139,3 +139,11 @@ Based on user feedback:
 2. **Vercel Zero-Config Deployment**:
    - Configured `vercel.json` in root and portal directory.
    - Ready for instant deployment on Vercel platform.
+
+---
+
+## Log Entry 10: Vercel Root Directory & Build Fix
+
+1. **Root `package.json` Added**:
+   - Created root [`package.json`](file:///c:/Users/Shivam/Desktop/Machine_Design/package.json) with npm `--prefix transformer-cad-portal` build and install commands.
+   - Fixed Vercel `sh: line 1: cd: transformer-cad-portal: No such file or directory` error.
