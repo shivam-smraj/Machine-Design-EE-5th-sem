@@ -1,0 +1,29 @@
+
+******************************************************************
+		LOW VOLTAGE WINDING CALCULATION OF THE TRANSFORMER
+
+******************************************************************
+
+
+Secondary Line Voltage is 433.00 V
+Connection Type is Star
+Phase Voltage is 249.993 V
+Turn per Phase is 39.00
+Secondary Current per phase is 266.674 A
+Current Density in Secondary phase is 2.30 A/mm^2
+Total Area of Secondary Conductor is 115.945 mm^2
+ Dimension of the Conductor is 15.000 * 7.800
+Modified area of Secondary Conductor is 117.000 mm^2
+Modified Current Density in Secondary phase is 2.28 A/mm^2
+Covering of Conductor is 0.500 mm
+ Dimension of the conductor with covering is 15.500 * 8.300
+Number of layer is used is 2
+Using helical winding space to be provided 20.00 turns along the axis
+Turns along the axial depth is 20.00
+Axial depth of the Winding ls 310.000 mm
+Clearance is 270.000 mm
+ Thickness of the pressboard cylinders is 1.000 mm
+lnsulations b/w lv winding and core is 2.500 mm
+ Diameter of the circumscribing circle is 0.226 mm
+ Inside diameter is 231.252 mm
+Outside diameter is 268.452 mm

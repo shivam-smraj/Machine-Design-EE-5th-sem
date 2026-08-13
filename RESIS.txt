@@ -1,0 +1,16 @@
+
+******************************************************************
+		RESISTANCE DESIGN OF THE TRANSFORMER
+******************************************************************
+
+
+Mean diameter of the HV winding is 352.352 mm
+Length of mean turn in HV winding is 1.107
+Resistivity of the material is 0.0210
+Resistance in the HV side is 135.6074
+Mean diameter of the LV winding is 249.852 mm
+Length of mean turn in LV winding is 0.785
+Resistivity of the material is 0.0210
+Resistance in the LV side is 0.0055
+Resistance reffered to primary side is 231.3443 Ohm
+Per Unit Resistance is 0.0142

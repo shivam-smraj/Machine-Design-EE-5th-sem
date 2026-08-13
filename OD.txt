@@ -1,0 +1,11 @@
+
+******************************************************************
+		OVERALL DIMENSION OF THE TRANSFORMER
+
+******************************************************************
+
+
+Distance between adjacent core centers is 0.566 m
+Height of the frame is 1.250 m
+Width of the Frame is 1.325 m
+Depth of the Frame is 0.192 m

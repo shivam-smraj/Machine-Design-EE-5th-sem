@@ -1,0 +1,22 @@
+
+******************************************************************
+		CORE DESIGN OF THE TRANSFORMER
+******************************************************************
+
+
+
+
+kVA rating of the transformer is 200.00 kVA
+Value of K is 0.45
+Voltage per Turn is 6.36 V
+Line frequency is 50 Hz
+Number of phase of the transformer is 3.00
+Flux in the core is 0.028666 Wb
+Flux density is 1.0000 Wb/m^2
+
+Net iron area is 0.028666 m^2
+Stacking factor is 0.90
+Gross Iron area is 0.031852 m^2
+Type of the core is Cruciform
+Diameter of the core is 0.2263 m
+Dimension is 0.192 * 0.120

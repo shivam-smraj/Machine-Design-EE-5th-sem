@@ -1,0 +1,16 @@
+
+******************************************************************
+		NO LOAD CURRENT CALCULATION OF THE TRANSFORMER
+******************************************************************
+
+
+
+Value 'at' of core corresponding to the flux density in core is 250.00 A/m
+Value 'at' of yoke corresponding to the flux density in yoke is 200.00 A/m
+Total Magnetizing current is 1167.302 A
+Magnetizing mmf per Phase is 389.101 A
+Magnetizing Current is 0.05345 A
+Loss Component of the No Load Current is 0.01891 A
+No Load Current is 0.05669 A
+
+No Load Current as a percentage of Full Load Current is 2.8

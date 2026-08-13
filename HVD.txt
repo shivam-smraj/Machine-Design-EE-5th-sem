@@ -1,0 +1,44 @@
+
+******************************************************************
+		HIGH VOLTAGE WINDING DESIGN OF THE TRANSFORMER
+******************************************************************
+
+
+The primary line voltage is 33000.00 V
+Connection type is delta
+Primary phase voltage is 33000.000 V
+Primary turn per phase is 5148 
+Tapping is considered here
+Percentage of Tapping is 5.000 
+Primary Turns per Phase with 5.000 tapping is  5405
+Crossover winding is used here.
+
+The value of voltage per coil is 1500.000 V
+Number of coil is 22
+Modified number of coils is 22
+Modified value of voltage per coil is 1500.000 V
+Turns per coil is 245.699997
+Number of normal coil is 20
+Turns in the normal coil is 246
+Reinforced turns in remaining 2 coil is 485
+Number of layers is 10 
+Turns per layer is 25
+Primary current per phase is 2.020 A
+Current is below 20A. Cross over winding is used here.
+Current density in the primary conductor is 2.300 A/mm^2
+ Area of the primary conductor is 0.878 mm^2
+Diameter of the primary conductor is 1.058 mm
+Standard value of the diameter(Ref Table 23.7)is 1.060 mm
+Standard value of the diameter proper insulation is 1.180 mm
+Modified area of the primary conductor is 0.882 mm^2
+Modified current density in the primary conductor is 2.289 A/mm^2
+Axial depth of coil is 29.500
+Spacers between adjacent coils are given of 5.0 mm
+Axial length of the hv winding is 759.000 mm
+
+Clearance is 45.500 mm
+Thickness of the insulation between the layers is 0.300 mm
+Radial depth of the coil is 14.500 mm
+Thickness of the insulation b/w LV and HV is 34.700 mm
+Inside diameter of the HV is 337.852 mm
+Outside diameter of HV is 366.852 mm

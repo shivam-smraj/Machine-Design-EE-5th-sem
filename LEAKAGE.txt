@@ -1,0 +1,12 @@
+
+******************************************************************
+		CALCULATION OF LEAKAGE REACTANCE OF THE TRANSFORMER
+******************************************************************
+
+
+Mean diameter of winding is 299.052 mm 
+Length of mean turn of winding is 0.940 m
+Mean Axial Length of the winding is 534.500 mm
+Leakage reactance reffered to primary side is 840.619 Ohm
+Per Unit leakage reactance is 0.051 
+Per Unit Impedance is 0.053

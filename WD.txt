@@ -1,0 +1,20 @@
+
+******************************************************************
+		WINDOW DIMENSION OF THE TRANSFORMER
+
+******************************************************************
+
+
+
+Primary Winding Voltage is 33 KV
+Window Space factor is 0.190
+Modified Window Space factor is 0.160
+Flux Density is 1.0000 Wb
+Current Density is 2.30 A/mm^2
+Area of the window is 0.113866 m^2
+Ratio-Height to Width of the window is 2.5
+Width of the Window is 0.213 m
+Height of the Window is 0.534 m
+Modified height of the window = 0.850 m 
+ Modified width of the Window = 0.340 m
+Distance between adjacent core is 0.566 m
