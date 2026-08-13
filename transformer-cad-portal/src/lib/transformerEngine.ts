@@ -793,7 +793,7 @@ Outside diameter of HV is ${outsideDiameterOdhv.toFixed(3)} mm`;
   const rs = (tsUsed * lmts * lvResistivityRos) / asModified;
 
   const ref = rp + Math.pow(tpModified / tsUsed, 2) * rs;
-  const epsilonP = (ipp * ref) / primaryVlp;
+  const epsilonP = (ipp * ref) / vpp;
 
   const resisSteps: MathStepItem[] = [
     {
@@ -839,8 +839,8 @@ Outside diameter of HV is ${outsideDiameterOdhv.toFixed(3)} mm`;
     {
       id: 'resis-5',
       title: '5. Per Unit Resistance (epsilonP)',
-      latexFormula: '\\epsilon_p = \\frac{I_{pp} R_{ef}}{V_{lp}}',
-      latexSubstituted: `\\epsilon_p = \\frac{${ipp.toFixed(3)} \\cdot ${ref.toFixed(2)}}{${primaryVlp}} = \\frac{${(ipp * ref).toFixed(2)}}{${primaryVlp}} = ${epsilonP.toFixed(4)} = ${(epsilonP * 100).toFixed(2)}\\%`,
+      latexFormula: '\\epsilon_p = \\frac{I_{pp} R_{ef}}{V_{pp}}',
+      latexSubstituted: `\\epsilon_p = \\frac{${ipp.toFixed(3)} \\cdot ${ref.toFixed(2)}}{${vpp.toFixed(1)}} = \\frac{${(ipp * ref).toFixed(2)}}{${vpp.toFixed(1)}} = ${epsilonP.toFixed(4)} = ${(epsilonP * 100).toFixed(2)}\\%`,
       calculatedValue: `${(epsilonP * 100).toFixed(2)}%`,
       unit: '% PU',
       explanation: 'Per-unit resistance ratio equal to full load copper loss fraction.',
