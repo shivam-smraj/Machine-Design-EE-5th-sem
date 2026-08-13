@@ -147,3 +147,11 @@ Based on user feedback:
 1. **Root `package.json` Added**:
    - Created root [`package.json`](file:///c:/Users/Shivam/Desktop/Machine_Design/package.json) with npm `--prefix transformer-cad-portal` build and install commands.
    - Fixed Vercel `sh: line 1: cd: transformer-cad-portal: No such file or directory` error.
+
+---
+
+## Log Entry 11: Next.js Framework Detector Fix for Vercel
+
+1. **Root Next.js Dependencies Added**:
+   - Added `"next": "16.3.0"`, `"react"`, `"react-dom"`, and `"framework": "nextjs"` in root [`package.json`](file:///c:/Users/Shivam/Desktop/Machine_Design/package.json) and [`vercel.json`](file:///c:/Users/Shivam/Desktop/Machine_Design/vercel.json).
+   - Resolves Vercel's `Error: No Next.js version detected` build error completely.
